@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit My Instagram</title>
+  <style>
+    body {
+      background: #fdf6f9;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      color: #e1306c;
+      font-size: 28px;
+    }
+
+    .btn {
+      background-color: #e1306c;
+      color: white;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 30px;
+      font-size: 18px;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #c1235b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Follow me on Instagram</h1>
+  <a class="btn" href="https://instagram.com/sohmm_07" target="_blank">Go to Instagram</a>
+
+</body>
+</html>
