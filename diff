@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 30px 0;
+    }
+    section {
+      padding: 20px;
+    }
+    img {
+      border-radius: 50%;
+      width: 150px;
+      margin-top: 20px;
+    }
+    .btn {
+      background-color: #1e90ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      margin: 10px;
+      font-size: 16px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:hover {
+      background-color: #0c76d1;
+    }
+    .insta-btn {
+      background-color: #E1306C;
+    }
+    footer {
+      background-color: #ddd;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hello, I'm [SOHAM SRIVASTAVA]</h1>
+    <p>Welcome to my personal website</p>
+    </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a student/developer.</p>
+    <p>I love coding, gaming, and learning new technologies.</p>
+    <p>This website is to share a little about myself!</p>
+
+    <a class="btn" href="mailto:your-sohamsrivastava0708@gmail.com">Contact Me</a>
+    <a class="btn insta-btn" href="https://instagram.com/sohmm_07" target="_blank">Instagram</a>
+  </section>
+
+  <footer>
+    &copy; 2025 [Your Name]. All rights reserved.
+  </footer>
+
+</body>
+</html>
